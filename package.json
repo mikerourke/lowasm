@@ -1,0 +1,9 @@
+{
+  "name": "lowasm",
+  "version": "0.0.1",
+  "description": "WebAssembly implementation of lodash.",
+  "main": "index.js",
+  "repository": "https://github.com/mikerourke/lowasm.git",
+  "author": "Mike Rourke <mike.w.rourke@gmail.com>",
+  "license": "MIT"
+}
