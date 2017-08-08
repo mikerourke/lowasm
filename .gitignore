@@ -29,5 +29,6 @@ dictionaries
 # Mac
 *.DS_Store
 
-# Database file:
-db.json
+# CMake/Build files:
+cmake-build-debug
+*.wasm

@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/mikerourke/lowasm.git",
   "author": "Mike Rourke <mike.w.rourke@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^2.1.0"
+  },
+  "scripts": {
+    "compile": "node wasm/compile.js",
+    "try": "node --expose-wasm ./wasm/run.js"
+  }
 }
